@@ -1,0 +1,83 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+form {
+    margin: auto;
+}
+
+.height {
+    height: 100vh;
+}
+
+.card {
+    border: none;
+    padding: 20px;
+    background-color: #1c1e21;
+    color: #fff;
+}
+
+.student-image {
+    width: 112px;
+    height: 112px;
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.5));
+    transition: .4s ease all;
+
+    &:hover {
+        filter: drop-shadow(0 15px 26px rgba(0, 0, 0, 0.8));
+    }
+}
+
+.button-width {
+    width: 70%;
+}
+
+.circle {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5855e7;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 50%;
+}
+
+.form-input {
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    i {
+        position: absolute;
+        font-size: 18px;
+        top: 15px;
+        left: 10px;
+    }
+}
+
+.form-control {
+    height: 50px;
+    background-color: #1c1e21;
+    text-indent: 24px;
+    font-size: 15px;
+    color: #fff;
+
+    &:focus {
+        background-color: #25272a;
+        box-shadow: none;
+        color: #fff;
+        border-color: #4f63e7;
+    }
+}
+
+.form-check-label {
+    margin-top: 2px;
+    font-size: 14px;
+}
